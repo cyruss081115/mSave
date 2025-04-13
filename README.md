@@ -11,55 +11,17 @@
 - **Zero-shot Methods**: These approaches edit diffusion latents or attention maps in pre-trained text-to-image models. They are training-free but **struggle with structural consistency** and fine-grained control.  
 - **Representation-based Methods**: Videos are encoded into alternative forms, where edits apply across frames. However, these methods often produce **inconsistent motion** or temporal artifacts.  
 
-## Gallary
-### Car turn
-Prompt: A blue SUV  
-<div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/original_car_turn.gif" alt="original" style="width: 100%; height: auto;">
-        <p style="text-align: center;">Original Video</p>
-    </div>
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/stablevideo_car_turn_blue.gif" alt="stable_video" style="width: 100%; height: auto;">
-        <p style="text-align: center;">StableVideo</p>
-    </div>
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/mSave_car_turn_blue.gif" alt="mSave" style="width: 100%; height: auto;">
-        <p style="text-align: center;">mSave (Ours)</p>
-    </div>
-</div>
+## Gallery
 
-Prompt: An orange SUV  
-<div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/original_car_turn.gif" alt="original" style="width: 100%; height: auto;">
-        <p style="text-align: center;">Original Video</p>
-    </div>
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/stablevideo_car_turn.gif" alt="stable_video" style="width: 100%; height: auto;">
-        <p style="text-align: center;">StableVideo</p>
-    </div>
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/mSave_car_turn.gif" alt="mSave" style="width: 100%; height: auto;">
-        <p style="text-align: center;">mSave (Ours)</p>
-    </div>
-</div>
+### Car Turn
 
-### Bicycle Tali  
-Prompt: Kid riding a blue bicycle  
-<div style="display: flex; justify-content: space-between; align-items: center;">
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/original_bicycle_tali.gif" alt="original" style="width: 100%; height: auto;">
-        <p style="text-align: center;">Original Video</p>
-    </div>
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/stablevideo_bicycle_tali.gif" alt="stable_video" style="width: 100%; height: auto;">
-        <p style="text-align: center;">StableVideo</p>
-    </div>
-    <div style="width: 33.33%; text-align: center;">
-        <img src="assets/mSave_bicycle_tali.gif" alt="mSave" style="width: 100%; height: auto;">
-        <p style="text-align: center;">mSave (Ours)</p>
-    </div>
-</div>
+| Prompt            | Original Video                          | StableVideo                          | mSave (Ours)                          |
+|--------------------|-----------------------------------------|---------------------------------------|---------------------------------------|
+| A blue SUV        | ![Original](assets/original_car_turn.gif) | ![StableVideo](assets/stablevideo_car_turn_blue.gif) | ![mSave](assets/mSave_car_turn_blue.gif) |
+| An orange SUV     | ![Original](assets/original_car_turn.gif) | ![StableVideo](assets/stablevideo_car_turn.gif) | ![mSave](assets/mSave_car_turn.gif) |
 
+### Bicycle Tali
 
+| Prompt                     | Original Video                          | StableVideo                          | mSave (Ours)                          |
+|-----------------------------|-----------------------------------------|---------------------------------------|---------------------------------------|
+| Kid riding a blue bicycle  | ![Original](assets/original_bicycle_tali.gif) | ![StableVideo](assets/stablevideo_bicycle_tali.gif) | ![mSave](assets/mSave_bicycle_tali.gif) |
